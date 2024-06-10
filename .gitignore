@@ -1,0 +1,38 @@
+# IntelliJ IDEA specific files on macOS
+# Ignore IntelliJ project specific files
+.idea/*
+*.iml
+# Ignore build artifacts and caches
+out/
+target/
+build/
+# Ignore temporary files
+*.tmp
+*.swo
+# Ignore database connection configuration (if applicable)
+# Modify the pattern below to match your specific file name/extension
+db_connection.properties
+
+# Ignore SQL query history (if using a plugin)
+# Modify the pattern below to match your specific plugin's history file
+# (assuming the plugin stores history in a file named sql_history.xml)
+sql_history.xml
+
+# Ignore other file types you want to exclude (modify as needed)
+*.log
+*.bak
+*.crt
+*.pem
+
+# Ignore all files starting with _ (underscore)
+# This is a common convention for private or temporary files
+_*
+
+# Ignore node_modules if you're using a frontend framework
+node_modules/
+
+# Ignore any specific SQL files or folders (modify as needed)
+# For example, to ignore a folder named 'sensitive_queries'
+sensitive_queries/
+
+# Lines starting with # are comments and ignored by Git
