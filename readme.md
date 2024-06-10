@@ -1,48 +1,36 @@
-## ISSUES to search/learn_details later
+# MySQL_Query: Exploring the Power of SQL
 
-1. more Datatypes, Constraints (table attributes)
+This repository is a journey through my learning process in the realm of MySQL. It serves as a comprehensive resource for anyone looking to master the fundamentals and explore advanced concepts.
 
-2. Show all the name of Student and the First letter of the name has to be Capital.
+**What's Inside?**
 
-```sql
-SELECT CONCAT(UPPER(LEFT (student.name, 1)), RIGHT(student.name, (CHAR_LENGTH(student.name) - 1))) AS 'Name' FROM student;
-```
+* **Progressive Learning:** The folders are meticulously organized in a logical sequence, starting with basic SQL commands and gradually progressing to more intricate topics. This ensures a smooth learning experience and caters to users of varying skill levels.
+* **SQL Operations:** Explore the core functionalities of SQL, including:
+    * **CRUD Operations:** Master data manipulation through Create, Read, Update, and Delete commands.
+    * **Joins:** Unleash the power of data relationships with various join types.
+    * **Subqueries:** Employ nested queries to delve deeper into complex data retrieval scenarios.
+    * **Aggregate Functions:** Gain insights from data summaries using functions like SUM, AVG, COUNT, and more.
+    * **MATH Functions:** Enhance your calculations within queries using built-in mathematical functions.
+    * **String Functions:** Manipulate textual data effectively with string manipulation functions.
+    * **Time and Date Functions:** Work with temporal data seamlessly using time and date functions.
+* **Database Files:** Essential database files are included to provide a practical foundation for your SQL practice.
+* **Q&A:** Embrace the power of self-learning with a dedicated file named `_QnA.md`. This file acts as a repository of your questions and their corresponding well-structured answers, solidifying your understanding.
 
-```sql
-SELECT CONCAT(UPPER(LEFT (name, 1)), LOWER(SUBSTRING(name, 2))) AS formatted_name FROM student;
-```
+**Getting Started**
 
-4. column-level ALTER v/s row-level update
+1. **Clone the Repository:**
 
-5. Can I make substitute(-) operation on 2 cells of one column???
+   ```bash
+   git clone [https://github.com/mominwin/SQL_Query.git](https://github.com/mominwin/SQL_Query.git)
+   ```
+   
+2. **Explore Each Folder:** 
 
-6. Find `names` of all employees and `the amount of sales` who have sold over 30K to a single client (IN +
-   subquery)  --> company_learn Database
+   Delve into each folder, starting with the initial ones, to embark on your learning journey.
+
+3. **Practice Queries:**
+
+   Run the provided SQL queries against your MySQL database to gain hands-on experience.
 
 
-8. how to use UNION on queries where LIMITs need to be used (in every
-   queries). : [Hacker Rank Problem](https://www.hackerrank.com/challenges/weather-observation-station-5/problem?isFullScreen=true)
 
-```sql
-SELECT *
-FROM ((SELECT CONCAT(CITY, ' ', CHAR_LENGTH(CITY))
-       FROM STATION
-       WHERE CHAR_LENGTH(CITY) =
-             (SELECT MAX(CHAR_LENGTH(CITY)) from STATION)
-       ORDER BY CITY LIMIT 1)
-      UNION
-      (SELECT CONCAT(CITY, ' ', CHAR_LENGTH(CITY))
-       FROM STATION+
-       WHERE CHAR_LENGTH(CITY) =
-             (SELECT MIN(CHAR_LENGTH(CITY)) from STATION)
-       ORDER BY CITY LIMIT 1)) AS CITY
-```
-
-9. 
-
-## QUERIES to add later
-
-- ER DIAGRAM
--
--
--
