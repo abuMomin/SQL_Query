@@ -21,7 +21,7 @@ This repository is a journey through my learning process in the realm of MySQL. 
 1. **Clone the Repository:**
 
    ```bash
-   git clone [https://github.com/mominwin/SQL_Query.git](https://github.com/mominwin/SQL_Query.git)
+   git clone https://github.com/mominwin/SQL_Query.git
    ```
    
 2. **Explore Each Folder:** 
