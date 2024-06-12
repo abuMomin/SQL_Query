@@ -4,7 +4,7 @@ This repository is a journey through my learning process in the realm of MySQL. 
 
 **What's Inside?**
 
-* **Progressive Learning:** The folders are meticulously organized in a logical sequence, starting with basic SQL commands and gradually progressing to more intricate topics. This ensures a smooth learning experience and caters to users of varying skill levels.
+* **Progressive Learning:** The folders are meticulously organized, starting with basic SQL commands and gradually progressing to more intricate topics. 
 * **SQL Operations:** Explore the core functionalities of SQL, including:
     * **CRUD Operations:** Master data manipulation through Create, Read, Update, and Delete commands.
     * **Joins:** Unleash the power of data relationships with various join types.
@@ -14,7 +14,8 @@ This repository is a journey through my learning process in the realm of MySQL. 
     * **String Functions:** Manipulate textual data effectively with string manipulation functions.
     * **Time and Date Functions:** Work with temporal data seamlessly using time and date functions.
 * **Database Files:** Essential database files are included to provide a practical foundation for your SQL practice.
-* **Q&A:** Embrace the power of self-learning with a dedicated file named `_QnA.md`. This file acts as a repository of your questions and their corresponding well-structured answers, solidifying your understanding.
+* **Q&A:** The file `_QnA.md` acts as a repository of your questions and their corresponding well-structured answers. 
+* **Notes:** Embrace the power of self-learning with a dedicated [Handnote](https://drive.google.com/file/d/16e62RO8v6-zygYbQ8KFtj65zKkjiAP1m/view?usp=drive_link) 
 
 **Getting Started**
 
